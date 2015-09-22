@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.wust.beans">
+  <class name="Student" table="student">
+  <cache usage="read-write"/>
+     <id name="num">
+     </id>    
+     <property name="username">
+     </property>
+     <property name="password">
+     </property>
+     <property name="sex"  >
+     </property>        
+     <property name="department" >     
+     </property>
+     <property name="mayor"  >     
+     </property>
+     <property name="grade" >     
+     </property>
+     <property name="education"  >     
+     </property>
+     <property name="politicalStatus"  >     
+     </property>
+     <property name="telephone"  >      
+     </property>
+     <property name="email" >      
+     </property>     
+  </class>
+</hibernate-mapping>

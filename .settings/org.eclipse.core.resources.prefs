@@ -1,0 +1,8 @@
+#Thu Aug 27 19:23:19 CST 2015
+eclipse.preferences.version=1
+encoding//WebRoot/Main.jsp=UTF-8
+encoding//WebRoot/applyTable.jsp=UTF-8
+encoding//WebRoot/default.jsp=UTF-8
+encoding//src/com/wust/beans/Student.java=UTF-8
+encoding//src/com/wust/dao/StudentDAO.java=UTF-8
+encoding//src/com/wust/tools/GetSessionFactory.java=UTF-8

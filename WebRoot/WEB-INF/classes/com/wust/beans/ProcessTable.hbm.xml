@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.wust.beans">
+  <class name="ProcessTable" table="ProcessTable">
+  <cache usage="read-write"/>
+     <id name="pnumber" column="pnumber" type="java.lang.String" length="30">
+     </id>    
+     <property name="pname">
+     </property>
+     <property name="pcategory"  >
+     </property>        
+     <property name="pkind" >     
+     </property>
+     <property name="name"  >     
+     </property>
+     <property name="depart" >     
+     </property>
+     <property name="tsignature"  >     
+     </property>
+     <property name="betime"  >     
+     </property>
+     <property name="moneyused"  >      
+     </property>
+     <property name="achievement" >      
+     </property>  
+     <property name="problem" >      
+     </property> 
+     <property name="dopinion" >      
+     </property> 
+     <property name="taskfinished" >      
+     </property> 
+     <property name="offer" >      
+     </property>   
+     <property name="signature" >      
+     </property>  
+  </class>
+</hibernate-mapping>

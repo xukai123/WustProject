@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.wust.beans">
+  <class name="ProgramResultTable" table="programResultTable">
+  <cache usage="read-write"/>
+     <id name="pnumber" column="pnumber" type="java.lang.String" length="30">
+     </id>    
+     <property name="pname">
+     </property>
+     <property name="pcategory">
+     </property>
+     <property name="pkind"  >
+     </property>        
+     <property name="name" >     
+     </property>
+     <property name="phone"  >     
+     </property>
+     <property name="tname" >     
+     </property>
+     <property name="members"  >     
+     </property>
+     <property name="taskfinished"  >     
+     </property>
+     <property name="achievement"  >      
+     </property>
+     <property name="problem" >      
+     </property>  
+     <property name="moneyused" >      
+     </property>
+     <property name="topinion" >      
+     </property>
+     <property name="eopinion" >      
+     </property>
+     <property name="stopinion" >      
+     </property>   
+  </class>
+</hibernate-mapping>

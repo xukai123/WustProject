@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Kangle/!svn/ver/5/wust_my/WebRoot/admin/general
+END
+addNewNotice.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Kangle/!svn/ver/5/wust_my/WebRoot/admin/general/addNewNotice.jsp
+END
+allFileList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Kangle/!svn/ver/5/wust_my/WebRoot/admin/general/allFileList.jsp
+END
+uploadFile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Kangle/!svn/ver/5/wust_my/WebRoot/admin/general/uploadFile.jsp
+END
+editNotice.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Kangle/!svn/ver/5/wust_my/WebRoot/admin/general/editNotice.jsp
+END
+generalReport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Kangle/!svn/ver/5/wust_my/WebRoot/admin/general/generalReport.jsp
+END
+issuedNoticeList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Kangle/!svn/ver/5/wust_my/WebRoot/admin/general/issuedNoticeList.jsp
+END
+left.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Kangle/!svn/ver/5/wust_my/WebRoot/admin/general/left.jsp
+END
+welcome.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Kangle/!svn/ver/5/wust_my/WebRoot/admin/general/welcome.jsp
+END
+noticeList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Kangle/!svn/ver/5/wust_my/WebRoot/admin/general/noticeList.jsp
+END
+unissuedNoticeList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Kangle/!svn/ver/5/wust_my/WebRoot/admin/general/unissuedNoticeList.jsp
+END
+myIssuedFileList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Kangle/!svn/ver/5/wust_my/WebRoot/admin/general/myIssuedFileList.jsp
+END
+result.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Kangle/!svn/ver/5/wust_my/WebRoot/admin/general/result.jsp
+END
+myUploadedFileList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Kangle/!svn/ver/5/wust_my/WebRoot/admin/general/myUploadedFileList.jsp
+END

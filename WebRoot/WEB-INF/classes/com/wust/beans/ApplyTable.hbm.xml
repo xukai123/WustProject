@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.wust.beans">
+  <class name="ApplyTable" table="applytalbe">
+  <cache usage="read-write"/>
+     <id name="pnumber" column="pnumber" type="java.lang.String" length="30">
+     </id>    
+     <property name="pcategory">
+     </property>
+     <property name="pkind">
+     </property>
+     <property name="pname"  >
+     </property>        
+     <property name="aname" >     
+     </property>
+     <property name="department"  >     
+     </property>
+     <property name="magorgrade" >     
+     </property>
+     <property name="adate"  >     
+     </property>
+     <property name="plevel"  >     
+     </property>
+     <property name="psource"  >      
+     </property>
+     <property name="btime" >      
+     </property>
+     <property name="etime"  >     
+     </property>
+     <property name="amoney" >     
+     </property>
+     <property name="num"  >     
+     </property>
+     <property name="sex"  >     
+     </property>
+     <property name="politicalStatus"  >      
+     </property>
+     <property name="skills" >      
+     </property>     
+     <property name="tname"  >     
+     </property>
+     <property name="tsex" >     
+     </property>
+     <property name="tdegree"  >     
+     </property>
+     <property name="tdepartment"  >     
+     </property>
+     <property name="tmajor"  >      
+     </property>
+     <property name="ttelephone" >  
+     </property>
+     <property name="meaning"  >      
+     </property>
+     <property name="information" >      
+     </property>     
+     <property name="keywork"  >     
+     </property>
+     <property name="method" >     
+     </property>
+     <property name="tdegree"  >     
+     </property>
+     <property name="promoney"  >     
+     </property>
+     <property name="signature"  >      
+     </property>
+     <property name="atime" >
+     </property>  
+     <property name="topinion"  >      
+     </property>
+     <property name="tsignature" >      
+     </property>     
+     <property name="ttime"  >     
+     </property>
+     <property name="dtopinion" >     
+     </property>
+     <property name="dtsignature"  >     
+     </property>
+     <property name="dttime"  >     
+     </property>
+     <property name="eopinion"  >      
+     </property>
+     <property name="esignature" >      
+     </property> 
+     <property name="etime" >      
+     </property>      
+     <property name="dopinion" >      
+     </property> 
+     <property name="mlsignature" >      
+     </property> 
+     <property name="mltime" >      
+     </property>     
+     <property name="stopinion" >      
+     </property> 
+     <property name="stsignature" >      
+     </property> 
+     <property name="sttime" >      
+     </property> 
+              
+  </class>
+</hibernate-mapping>

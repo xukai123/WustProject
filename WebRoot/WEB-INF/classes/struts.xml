@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+ "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+  <package name="struts2" extends="struts-default" namespace="/">
+     <action name="regist" class="com.wust.actions.StudentsRegistAction">
+        <result>
+           /studentLogin.jsp
+        </result>        
+     </action>
+     <action name="studentLogin" class="com.wust.actions.StudentLoginAction">
+        <result>
+           /studentMain.jsp
+        </result>   
+        <result name="input">
+           /applyTable.jsp
+        </result>     
+     </action>
+     <action name="confirmID" class="com.wust.actions.ConfirmIdentityAction">
+        <result name="page1">
+           /studentLogin.jsp
+        </result>  
+        <result name="page2">
+           /teacherLogin.jsp
+        </result>      
+     </action>
+     
+     <action name="applytable" class="com.wust.actions.ApplyTableAction">
+        <result>
+           /studentLogin.jsp
+        </result>        
+     </action>
+     <action name="processtable" class="com.wust.actions.ProcessTableAction">
+        <result>
+           /studentLogin.jsp
+        </result>        
+     </action>
+     <action name="programresulttable" class="com.wust.actions.ProgramResultTableAction">
+        <result>
+           /studentLogin.jsp
+        </result>        
+     </action>
+  </package>
+</struts>
